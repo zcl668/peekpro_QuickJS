@@ -20,7 +20,7 @@ https://live.ximalaya.com/radio-first-page-app/live/1011/64.m3u8
 #EXTINF:-1 tvg-name="怀旧音乐" group-title="电台",怀旧音乐
 https://live.ximalaya.com/radio-first-page-app/live/966/64.m3u8
 #EXTINF:-1 tvg-name="亚洲粤语台" group-title="电台",亚洲粤语台
-https://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8
+https://lhttp.qtfm.cn/live/15318569/64k.mp3
 #EXTINF:-1 tvg-name="经典" group-title="电台",经典
 https://live.ximalaya.com/radio-first-page-app/live/2689/64.m3u8
 #EXTINF:-1 tvg-name="亚洲热歌" group-title="电台",亚洲热歌
@@ -43,5 +43,3 @@ https://22243.live.streamtheworld.com/988_FMAAC.aac
 https://playerservices.streamtheworld.com/api/livestream-redirect/YES933_PREM.aac
 #EXTINF:-1 tvg-name="澳门fm99.5" group-title="电台",澳门fm99.5
 https://fm995.ddns.net/hls1/fm995.m3u8
-#EXTINF:-1 tvg-name="亚洲粤语台" group-title="电台",亚洲粤语台
-https://lhttp.qtfm.cn/live/15318569/64k.mp3
