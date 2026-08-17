@@ -17,7 +17,7 @@
       "key": "loveq",
       "name": "一些事一些情[听]",
       "type": 3,
-      "api": "./音乐/一些事一些情.js",
+      "api": "./音乐/一些事一些情[听].js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
