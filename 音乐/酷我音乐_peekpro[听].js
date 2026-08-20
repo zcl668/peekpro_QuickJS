@@ -21,14 +21,6 @@ function request(url, headers) {
 function init(ext) {
 }
 
-// 判断是否为纯歌名（不含任何括号）
-function isPureSongName(name) {
-    if (!name) return false;
-    // 核心规则：只要歌名里带任何括号，一律过滤掉
-    // 包括：() [] {} 【】 《》 〈〉 「」 『』
-    return !/[\(\)\[\]\{\}【】《》〈〉「」『』]/.test(name);
-}
-
 function home(filter) {
     let cateId = [
         {type_name: "华语男", type_id: "1"},
@@ -100,18 +92,13 @@ function detailContent(ids) {
         let artist_info = (info_data.info || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/\r\n/g, '\n').replace(/\r/g, '\n').trim();
         if (all_songs.length > 300) all_songs = all_songs.slice(0, 300);
         
-        // 统一格式：歌曲名-歌手名$rid，只保留纯歌曲名
         let play_arr = [];
         for (let i = 0; i < all_songs.length; i++) {
             let song = all_songs[i];
             let name = (song.name || '').replace(/[$#]/g, '').trim();
             let song_id = song.rid || '';
-            
-            // 双重保险：只保留纯歌曲名（不带任何括号）
-            if (!name || !isPureSongName(name)) continue;
-            
-            // 统一格式：歌曲名-歌手名$rid
-            play_arr.push(name + '-' + artist_name + '$' + song_id);
+            let album = song.album || '';
+            play_arr.push((album ? name + ' - ' + album : name) + '$' + song_id);
         }
         
         result.list = [{
@@ -153,11 +140,9 @@ function getArtistSongs(rid) {
                 if (song_list.length === 0) break;
                 for (let i = 0; i < song_list.length; i++) {
                     let song = song_list[i];
-                    let songName = String(song.name || '').trim();
-                    // 只保留纯歌曲名：非空且不带任何括号
-                    if (songName && isPureSongName(songName)) {
+                    if (song.name) {
                         songs.push({
-                            name: songName,
+                            name: String(song.name).trim(),
                             rid: String(song.rid || ''),
                             album: String(song.album || ''),
                             duration: String(song.duration || '')

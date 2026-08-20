@@ -5,10 +5,20 @@
   "warningText": "此文件可以随意调节自己想要的任何数据",
   "sites": [
     {
-      "key": "HellYell电台_QuickJS",
-      "name": "HellYell电台_QuickJS[听]",
+       "key": "push_agent",
+       "name": "📢｜推送｜中心",
+       "type": 3,
+       "jar": "./lib/jar/dongli-spider.jar",
+       "api": "csp_Push",
+       "searchable": 0,
+       "changeable": 0,
+       "timeout": 60
+    },
+    {
+      "key": "HellYell电台_peekpro",
+      "name": "HellYell电台_peekpro[听]",
       "type": 3,
-      "api": "./音乐/HellYell电台_QuickJS[听].js",
+      "api": "./音乐/HellYell电台_peekpro[听].js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
@@ -17,43 +27,43 @@
       "key": "loveq",
       "name": "一些事一些情[听]",
       "type": 3,
-      "api": "./音乐/一些事一些情[听].js",
+      "api": "./音乐/一些事一些情_loveq_peekpro.js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
     },
     {
-      "key": "世纪音乐_QuickJS[听]",
-      "name": "世纪音乐_QuickJS[听]",
+      "key": "世纪音乐_peekpro[听]",
+      "name": "世纪音乐_peekpro[听]",
       "type": 3,
-      "api": "./音乐/世纪音乐_QuickJS[听].js",
+      "api": "./音乐/世纪音乐_peekpro[听].js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
     },
     {
-      "key": "枫叶音乐_Quickjs[听]",
-      "name": "枫叶音乐_Quickjs[听]",
+      "key": "枫叶音乐_peekpro[听]",
+      "name": "枫叶音乐_peekpro[听]",
       "type": 3,
-      "api": "./音乐/枫叶音乐_Quickjs[听].js",
+      "api": "./音乐/枫叶音乐_peekpro[听].js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
     },
     {
-      "key": "蜻蜓FM_QuickJS[听]",
-      "name": "蜻蜓FM_QuickJS[听]",
+      "key": "蜻蜓FM_peekpro[听]",
+      "name": "蜻蜓FM_peekpro[听]",
       "type": 3,
-      "api": "./音乐/蜻蜓FM_QuickJS[听].js",
+      "api": "./音乐/蜻蜓FM_peekpro[听].js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
     },
     {
-      "key": "酷我音乐_Quickjs[听]",
-      "name": "酷我音乐_Quickjs[听]",
+      "key": "酷我音乐_peekpro[听]",
+      "name": "酷我音乐_peekpro[听]",
       "type": 3,
-      "api": "./音乐/酷我音乐_Quickjs[听].js",
+      "api": "./音乐/酷我音乐_peekpro[听].js",
       "searchable": 0,
       "filterable": 0,
       "switchable": 0
