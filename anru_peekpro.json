@@ -1,0 +1,211 @@
+{
+  "spider": "",
+  "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "logo": "./logo.gif",
+  "warningText": "此文件可以随意调节自己想要的任何数据",
+  "sites": [
+    {
+       "key": "push_agent",
+       "name": "📢｜推送｜中心",
+       "type": 3,
+       "jar": "./lib/jar/dongli-spider.jar",
+       "api": "csp_Push",
+       "searchable": 0,
+       "changeable": 0,
+       "timeout": 60
+    },
+    {
+      "key": "HellYell电台_peekpro",
+      "name": "HellYell电台_peekpro[听]",
+      "type": 3,
+      "api": "./音乐/HellYell电台_peekpro[听].js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "loveq",
+      "name": "一些事一些情[听]",
+      "type": 3,
+      "api": "./音乐/一些事一些情_loveq_peekpro.js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "世纪音乐_peekpro[听]",
+      "name": "世纪音乐_peekpro[听]",
+      "type": 3,
+      "api": "./音乐/世纪音乐_peekpro[听].js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "枫叶音乐_peekpro[听]",
+      "name": "枫叶音乐_peekpro[听]",
+      "type": 3,
+      "api": "./音乐/枫叶音乐_peekpro[听].js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "蜻蜓FM_peekpro[听]",
+      "name": "蜻蜓FM_peekpro[听]",
+      "type": 3,
+      "api": "./音乐/蜻蜓FM_peekpro[听].js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "酷我音乐_peekpro[听]",
+      "name": "酷我音乐_peekpro[听]",
+      "type": 3,
+      "api": "./音乐/酷我音乐_peekpro[听].js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "樱花视频_peekpro",
+      "name": "樱花视频_peekpro[秘]",
+      "type": 3,
+      "api": "./瑟瑟/樱花视频_peekpro[秘].js",
+      "searchable": 0,
+      "filterable": 0,
+      "switchable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "五妹轮询",
+      "type": 0,
+      "url": "https://down.nigx.cn/jx.zzong6599.workers.dev/?url=",
+      "ext": {
+        "flag": [
+          ".*."
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "五妹自动",
+      "type": 0,
+      "url": "https://down.nigx.cn/xjx.zzong6599.workers.dev/?url="
+    },
+    {
+      "name": "4K智家",
+      "type": 1,
+      "url": "http://125.208.23.251:1314/lunxun/?url="
+    },
+    {
+      "name": "星睿⚡4K",
+      "type": 1,
+      "url": "http://sspa8.top:8100/api/?cat_ext=eyJmbGFnIjpbInFxIiwi6IW+6K6vIiwicWl5aSIsIueIseWlh+iJuiIsIuWlh+iJuiIsInlvdWt1Iiwi5LyY6YW3Iiwic29odSIsIuaQnOeLkCIsImxldHYiLCLkuZDop4YiLCJtZ3R2Iiwi6IqS5p6cIiwidG5tYiIsInNldmVuIiwiYmlsaWJpbGkiLCIxOTA1Il0sImhlYWRlciI6eyJVc2VyLUFnZW50Ijoib2todHRwLzQuOS4xIn19&key=星睿4k&url="
+    },
+    {
+      "name": "HD⚡腾讯解析",
+      "type": 1,
+      "url": "http://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&url="
+    },
+    {
+      "name": "4k芒果⚡专解",
+      "type": 1,
+      "url": "http://shybot.top/v2/video/jx/?shykey=4595a71a4e7712568edcfa43949236b42fcfcb04997788ebe7984d6da2c6a51c&qn=max&url="
+    },
+    {
+      "name": "岁岁解析8888次",
+      "type": 1,
+      "url": "http://sspa8.top:8100/api/?key=1060089351&url="
+    },
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "https://kalbim.xatut.top/kalbim2025/781718/play/video_player.php?url="
+    }
+  ],
+  "doh": [
+    {
+      "name": "📺『Google』",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "📺『Cloudflare』",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "📺『AdGuard』",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "📺『DNSWatch』",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "📺『Quad9』",
+      "url": "https://dns.quad9.net/dns-query",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "flags": [
+    "youku",
+    "tudou",
+    "qq",
+    "qiyi",
+    "iqiyi",
+    "leshi",
+    "letv",
+    "sohu",
+    "imgo",
+    "mgtv",
+    "bilibili",
+    "pptv",
+    "PPTV",
+    "migu"
+  ],
+  "proxy": [
+    "serv00.com",
+    "serv00.net",
+    "googlevideo.com",
+    "youtube.com",
+    "youtu.be",
+    "yt.be",
+    "googlevideo.com",
+    "googleapis.com",
+    "youtube-nocookie.com",
+    "youtube.googleapis.com",
+    "youtubei.googleapis.com",
+    "ytimg.com",
+    "google.com",
+    "googleapis.com",
+    "gstatic.com",
+    "ggpht.com",
+    "1e100.net"
+  ],
+  "lives": []
+}
