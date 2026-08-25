@@ -1,17 +1,18 @@
 {
-  "spider": "./lib/jar/mufan.jar",
+  "spider": "./lib/jar/mufan_anru.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "./logo.gif",
   "warningText": "此文件可以随意调节自己想要的任何数据",
   "sites": [
-{
-      "key": "qtfm",
-      "name": "📻蜻蜓FM[听]",
+    {
+      "key": "qtfm_anru",
+      "name": "📻蜻蜓FM_mufan[听]",
       "type": 3,
-      "api": "csp_QtFm",
+      "api": "csp_QtFm_mufan",
+      "ext": "./lives/木凡喜爱的电台.json",
       "searchable": 1,
       "quickSearch": 1
-    },
+    },    
     {
       "key": "hellyell",
       "name": "📻HellYell电台[听]",
