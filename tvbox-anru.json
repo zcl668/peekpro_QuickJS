@@ -1,9 +1,17 @@
 {
-  "spider": "./lib/jar/mufan_anru.jar",
+  "spider": "./lib/jar/a2.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "./logo.gif",
   "warningText": "此文件可以随意调节自己想要的任何数据",
   "sites": [
+    {
+      "key": "Douban",
+      "name": "📚｜豆瓣｜推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "filterable": 1
+    },
     {
       "key": "qtfm_anru",
       "name": "📻蜻蜓FM_mufan[听]",
@@ -58,6 +66,40 @@
       "ext": ""
     },
     {
+      "key": "aidianying",
+      "name": "📺金牌[剧]",
+      "type": 3,
+      "api": "csp_Aidianying",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": ""
+    },
+    {
+      "key": "yongle",
+      "name": "📺永乐影视[剧]",
+      "type": 3,
+      "api": "csp_Yongle",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": ""
+    },
+    {
+   "key": "上海看看",
+   "name": "上海看看",
+   "type": 3,
+   "api": "./py/wxty.py"
+  },
+    {
+      "key": "Huya",
+      "name": "📺虎牙直播",
+      "type": 3,
+      "api": "csp_Huya",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": ""
+   },
+   {
       "key": "xptiantang",
       "name": "xp天堂[秘]",
       "type": 3,
@@ -65,6 +107,7 @@
       "searchable": 1,
       "quickSearch": 1
    }
+ 
 ],
   "parses": [],
   "rules": [],
