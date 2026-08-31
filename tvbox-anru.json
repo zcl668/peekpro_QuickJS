@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/jar/a2.jar",
+  "spider": "./lib/jar/mufan_anru.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "./logo.gif",
   "warningText": "此文件可以随意调节自己想要的任何数据",
